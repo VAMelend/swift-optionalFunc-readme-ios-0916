@@ -1,4 +1,7 @@
-func brokenFirstItem(items: [String]) -> String {
+func brokenFirstItem(items: [String]) -> String? {
+    if items.isEmpty{
+        return nil
+    }
     return items[0]
 }
 
@@ -7,7 +10,12 @@ brokenFirstItem(fruits)  // Works!
 fruits = []
 // Uncomment the next line to see the problem.
 // You will get an "index out of range" error.
-//brokenFirstItem(fruits)  // Breaks :-(
+brokenFirstItem(fruits)
+
+
+// Breaks :-(
+
+
 
 
 
