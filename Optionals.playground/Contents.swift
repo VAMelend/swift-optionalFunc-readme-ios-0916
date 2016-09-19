@@ -56,3 +56,15 @@ func produceFullName(withFirstName firstName: String, middleName: String?, lastN
 
 produceFullName(withFirstName: "Jon", middleName: "Bon", lastName: "Jovi")
 produceFullName(withFirstName: "Mary", middleName: nil, lastName: "Doe")
+
+
+/// Arrays Review
+
+let array: [String]
+let array3 = [String]()
+
+
+//??  (lldb) po students.count
+
+
+
